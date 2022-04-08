@@ -9,9 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Collections\" />
       <Folder Include="Helpers\" />
-      <Folder Include="Extensions\" />
     </ItemGroup>
 
 </Project>

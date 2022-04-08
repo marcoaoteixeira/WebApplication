@@ -7,7 +7,7 @@ namespace Nameless.WebApplication {
         #region Public Static Methods
 
         [DebuggerStepThrough]
-        public static void ParameterNull(string parameterName, object parameterValue) {
+        public static void ParameterNull(object? parameterValue, string parameterName) {
             EnsureParameterName(parameterName);
 
             if (parameterValue == null) {
@@ -16,7 +16,7 @@ namespace Nameless.WebApplication {
         }
 
         [DebuggerStepThrough]
-        public static void ParameterNullOrWhiteSpace(string parameterName, string parameterValue) {
+        public static void ParameterNullOrWhiteSpace(string parameterValue, string parameterName) {
             EnsureParameterName(parameterName);
 
             if (string.IsNullOrWhiteSpace(parameterValue)) {
