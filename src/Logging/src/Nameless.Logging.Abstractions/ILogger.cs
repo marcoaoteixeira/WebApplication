@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Logging {
+﻿namespace Nameless.Logging {
 
     /// <summary>
     /// Defines the log interface.

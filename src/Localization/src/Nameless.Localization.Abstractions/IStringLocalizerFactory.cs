@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Localization {
+﻿namespace Nameless.Localization {
 
     public interface IStringLocalizerFactory {
 

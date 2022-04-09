@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Search {
+﻿namespace Nameless.Search {
 
     /// <summary>
     /// Enumerator for document index options.

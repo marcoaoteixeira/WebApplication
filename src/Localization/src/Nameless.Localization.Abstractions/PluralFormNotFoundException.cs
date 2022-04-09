@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Nameless.WebApplication.Localization {
+namespace Nameless.Localization {
 
     [Serializable]
     public class PluralFormNotFoundException : Exception {

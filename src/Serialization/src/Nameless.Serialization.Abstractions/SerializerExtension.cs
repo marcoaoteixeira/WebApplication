@@ -1,4 +1,4 @@
-namespace Nameless.WebApplication.Serialization {
+namespace Nameless.Serialization {
 
     public static class SerializerExtension {
 

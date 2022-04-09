@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Persistence {
+﻿namespace Nameless.Persistence {
 
     /// <summary>
     /// Exposes methods to define a data writer.

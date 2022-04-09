@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Localization {
+﻿namespace Nameless.Localization {
 
     /// <summary>
     /// Singleton Pattern implementation for Localizer. (see: https://en.wikipedia.org/wiki/Singleton_pattern)

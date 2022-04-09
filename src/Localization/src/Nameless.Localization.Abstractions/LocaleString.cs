@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Nameless.WebApplication.Localization {
+namespace Nameless.Localization {
 
     public sealed class LocaleString {
 

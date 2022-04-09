@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Logging {
+﻿namespace Nameless.Logging {
 
 	/// <summary>
 	/// Extension methods for <see cref="LogLevel"/>

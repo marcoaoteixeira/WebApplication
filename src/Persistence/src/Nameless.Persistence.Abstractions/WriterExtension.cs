@@ -1,4 +1,4 @@
-namespace Nameless.WebApplication.Persistence {
+namespace Nameless.Persistence {
 
     public static class WriterExtension {
 

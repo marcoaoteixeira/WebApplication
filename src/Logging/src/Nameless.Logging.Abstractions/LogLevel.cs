@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Nameless.WebApplication.Logging {
+namespace Nameless.Logging {
 
 	/// <summary>
 	/// Log level flags.

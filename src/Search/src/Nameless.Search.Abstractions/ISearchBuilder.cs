@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Search {
+﻿namespace Nameless.Search {
 
     /// <summary>
     /// Defines methods for a search builder.

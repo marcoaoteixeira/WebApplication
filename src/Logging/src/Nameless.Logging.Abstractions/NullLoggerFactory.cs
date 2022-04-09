@@ -1,4 +1,4 @@
-﻿namespace Nameless.WebApplication.Logging {
+﻿namespace Nameless.Logging {
 
     [NullObject]
 	public sealed class NullLoggerFactory : ILoggerFactory {

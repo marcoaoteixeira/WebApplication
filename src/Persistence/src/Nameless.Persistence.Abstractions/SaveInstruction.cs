@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq.Expressions;
 
-namespace Nameless.WebApplication.Persistence {
+namespace Nameless.Persistence {
 
     public sealed class SaveInstruction<TEntity> where TEntity : class {
 
