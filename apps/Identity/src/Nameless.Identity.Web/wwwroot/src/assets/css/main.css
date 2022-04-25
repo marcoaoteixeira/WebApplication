@@ -1,0 +1,100 @@
+p.two-factor-info {
+  margin-top: 10px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number].disable-step::-webkit-outer-spin-button,
+input[type=number].disable-step::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number].disable-step {
+    -moz-appearance: textfield;
+}
+
+a {
+    color: #000;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+    a:hover {
+        color: #007bff;
+    }
+
+/* Fix for jQuery validation */
+.field-validation-error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+body.forbidden {
+    background-color: #e9ecef;
+    min-height: auto;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -70%);
+}
+
+    body.forbidden > section.content > div.error-page {
+        margin: auto;
+        width: 750px;
+    }
+
+/* for Two Factor Pin Code Group */
+.pincode-group {
+    margin-bottom: 25px;
+    display: table;
+}
+
+    .pincode-group > input[type="tel"],
+    .pincode-group > input[type="password"],
+    .pincode-group > input[type="text"] {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        float: left;
+        width: 15%;
+        height: 50px;
+        line-height: 48px;
+        text-align: center;
+        font-size: 2em;
+        color: #181819;
+        border: 0;
+        border-bottom: 2px solid rgba(0,0,0,0.3);
+        border-radius: 2px 2px 0 0;
+        transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+        cursor: default;
+        user-select: none;
+        margin: 0;
+        margin-top: 10px;
+        margin-right: 2%;
+        padding: 0;
+    }
+
+.pincode-group > input:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #1486f0;
+    animation: border-pulsate 1.5s infinite;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.pincode-group > input:last-child {
+    margin-right: 0;
+}
+
+.center-block {
+    display: table; /* Instead of display:block */
+    margin-left: auto;
+    margin-right: auto;
+}

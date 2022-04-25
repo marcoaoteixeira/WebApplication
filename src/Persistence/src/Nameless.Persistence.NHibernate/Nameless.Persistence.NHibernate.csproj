@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NHibernate" Version="5.3.11" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Core\src\Nameless.Core\Nameless.Core.csproj" />
+      <ProjectReference Include="..\..\..\NHibernate\src\Nameless.NHibernate.Extra\Nameless.NHibernate.Extra.csproj" />
+      <ProjectReference Include="..\Nameless.Persistence.Abstractions\Nameless.Persistence.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>
